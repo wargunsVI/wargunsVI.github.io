@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600");
+
+@-ms-viewport {
+    width: device-width; }
+  body {
+    -ms-overflow-style: scrollbar; }
+  
+  @media screen and (max-width: 480px) {
+    html, body {
+      min-width: 320px; } }
+  html {
+    box-sizing: border-box; }
+  
+  *, *:before, *:after {
+    box-sizing: inherit; }
+  
+  .image.fit img {
+    height: auto;
+  }
+
+
+
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-image: url(img_flwr.gif), url(paper.gif);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
